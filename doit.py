@@ -1,4 +1,3 @@
-# 이 블럭은 인스턴스 나열 API를 사용하는 부분입니다.
 import requests
 from oci.config import from_file
 from oci.signer import Signer
