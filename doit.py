@@ -8,7 +8,7 @@ def listit():
 
     # request의 auth 부분 생성
     auth = Signer(
-	      tenancy=config['tenancy'],
+	tenancy=config['tenancy'],
         user=config['user'],
         fingerprint=config['fingerprint'],
         private_key_file_location=config['key_file']
@@ -34,7 +34,7 @@ def makeit():
 
     # request의 auth 부분 생성
     auth = Signer(
-	      tenancy=config['tenancy'],
+	tenancy=config['tenancy'],
         user=config['user'],
         fingerprint=config['fingerprint'],
         private_key_file_location=config['key_file']
